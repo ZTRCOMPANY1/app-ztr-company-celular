@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Meu Site de Música</title>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site de Música</h1>
+        <nav>
+            <a href="profile.html">Perfil</a>
+        </nav>
+    </header>
+    <main>
+        <div id="music-player">
+            <img id="cover" src="" alt="Capa do Álbum">
+            <h2 id="track-title"></h2>
+            <h3 id="track-artist"></h3>
+            <audio id="audio-player" controls>
+                <source id="audio-source" src="" type="audio/mpeg">
+            </audio>
+            <div id="controls">
+                <button id="prev">Anterior</button>
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="next">Próximo</button>
+                <button id="add-to-playlist">Adicionar à Playlist</button>
+            </div>
+            <div id="playlist"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
